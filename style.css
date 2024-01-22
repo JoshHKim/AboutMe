@@ -281,7 +281,7 @@ section{
   .details-container{
     padding: 1.5rem;
     flex: 1;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.6);
     border-radius: 2rem;
     border: rgb(53,53,53) 0.1rem solid;
     border-color: rgb(163,163,163);
@@ -324,3 +324,80 @@ section{
   article .icon{
     cursor: default;
   }
+
+  /*Potential Projects Page*/
+  #projects {
+    position: relative;
+  }
+
+  .project-containers {
+    gap: 2rem;
+    display: flex;
+  }
+  
+  .color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgba(255, 255, 255, 0.6);
+  }
+  
+  .project-img {
+    border-radius: 2rem;
+    width: 60%;
+    height: 60%;
+  }
+  
+  .project-title {
+    margin: 1rem;
+    color: black;
+  }
+  
+  .project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+  }
+
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    background: rgba(255, 255, 255, 0.6);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p{
+    font-size: larger;
+}
+
+.contact-icon{
+    cursor:default;
+}
+
+.email-icon{
+    height:2.5rem;
+}
+
+footer{
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p{
+    text-align: center;
+}
