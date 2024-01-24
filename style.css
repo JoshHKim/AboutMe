@@ -114,7 +114,7 @@ a:hover {
 
 .menu-links.open{
     max-height: 300px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 1rem;
 }
 
@@ -166,9 +166,10 @@ section{
 }
 
 .profile-pic-container{
+    justify-content: center;
     display: flex;
     height: 714px;
-    width: 535px;
+    width: auto;
     margin: auto 0;
 }
 
@@ -255,7 +256,6 @@ section{
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    margin-left: 5rem;
   }
   
   .about-details-container {
